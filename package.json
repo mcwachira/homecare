@@ -1,0 +1,22 @@
+{
+  "name": "homecare",
+  "version": "1.0.0",
+  "description": "a webApp for homecare and elderly care services",
+  "main": "js/main.js",
+  "scripts": {
+    "compile:sass": "node-sass dist/sass/main.scss dist/css/main2.css -w "
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com//mcwachira/HomeCare.git"
+  },
+  "homepage": "https://mcwachira.github.io/homecare/dist/",
+  "author": "mcwachira",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^4.10.0"
+  },
+  "dependencies": {
+    "live-server": "^1.2.0"
+  }
+}

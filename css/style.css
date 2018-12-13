@@ -1390,3 +1390,50 @@ height: 150px;
     margin-top: 10rem;
 
 }
+
+
+/* services page pallative.html */
+
+.pallative-care{
+      width: 100%;
+      height: 80vh;
+      background: url(https://1g3hbq.am.files.1drv.com/y4mce9YzUGLrivZjrY4onHeLymaUOAl7ztONUHcfwgj9qjYzVKMj6cHK1NmFTBjoaGaLiMG6z52PMLjcMjsZ8dGXc1s9EgZTE5zFmPpt6R5vSDTDtyj6BagDPVHIb2SnOdL02x6eFMDgcSjs7F3SJ9zG2UG45NH1TMej3LPL8ahYq22hr9Ixq1PaasBHfKvLUXKke_zmLNZ2QrPRGYdJN71Ng?width=1875&height=1108&cropmode=none) no-repeat 50% 50%;
+      background-size: cover;
+}
+
+.change__column {
+    margin-top: 10rem;
+
+}
+
+
+/* services page new-born.html */
+
+.new-born__care{
+      width: 100%;
+      height: 80vh;
+      background: url(https://ts72mq.am.files.1drv.com/y4mrIJw-dVUI8TmfnLJPPCVUztFCEQmCfIc2HSZc5HcXbWIC55_mdDGXXALKUONQZCx4_SSlpCrcVzZ-g0U_EfeMWwUFf0XKkZjYljlBmoyphY4GqpEwvbrsM-wXXZBIJxe9QzNbI4C2TsfGzeU9MGrLTjgb7E7Lo00bf7c4e8ePR1DIn9tWM0a5fsiDZ8gVGsW_65NRJ6eoQhxRNsyRHkVfw?width=3363&height=2241&cropmode=none) no-repeat 50% 50%;
+      background-size: cover;
+}
+
+.change__column {
+    margin-top: 10rem;
+
+}
+
+
+
+
+/* services page child-care.html */
+
+.child-care{
+      width: 100%;
+      height: 80vh;
+      background: url(https://rbib1a.am.files.1drv.com/y4mH6yRNt0ILfWogMjI5iqYluxHMWtfx4K7rog9lEYU8lUS5iikhw6IMkHDp_Z0hlzNAPNSn83F82KWbjkB6Z2mL5qJtPmtvCmUNqfyOHrMKPS78ryjNS0a4YiozS92InDrQJYjv9dYaQO-475xEJ-2dhxVXNVAZ1Msvh2VdfM0BXPS-ex-RWPxcNavjYuUbXCczbSgxRVynsHOWTZmh7EI6A?width=2625&height=1752&cropmode=none) no-repeat 50% 50%;
+      background-size: cover;
+}
+
+.change__column {
+    margin-top: 10rem;
+
+}

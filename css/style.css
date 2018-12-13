@@ -1322,3 +1322,38 @@ height: 150px;
       background: url(https://fxdkya.am.files.1drv.com/y4mie0ki6vXIblqT3rnlf-rV7M-NVl_ixJMI-KfqcbyoXRhlYSF0mEIco4l0NPucy5fxqgwpCy-z0ftnmIBJI2nbN2v8eKiUGvf5DKIx2xPknUdWCv9BYihu2Hd4btWPmE31fOqMA27kuYFblYJxux3Dm-6qMua2m8FmgJDhiqulNnmrRp6MnNW7IZJUtrWOpphRot4V6F4PSWK4bi86BSFdg?width=3888&height=2592&cropmode=none) no-repeat 50% 50%;
       background-size: cover;
 }
+.card-img-right {
+  height: 100%;
+  border-radius: 0 3px 3px 0;
+}
+
+.flex-auto {
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+}
+
+.h-250 { height: 280px; }
+@media (min-width: 768px) {
+  .h-md-250 { height: 250px; }
+}
+
+/*.border-top { border-top: 1px solid #e5e5e5; }*/
+/*.border-bottom { border-bottom: 1px solid #e5e5e5; }*/
+
+/*.box-shadow { box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05); }*/
+
+.card-img-right{max-width:280px;height:auto;}
+
+
+
+
+/* new-born-styles */
+.new-born-care{
+      width: 50%;
+      height: 50vh;
+      background: url(https://ts65aq.am.files.1drv.com/y4mEjXiC5aDh6hGajggUAjYQCrW3bBkOCffcaPS4R4omUDJWjdFz7dj9yJEylN9PubMj6WdVpy9O7zVfEidxoXSH7KCJlroBCSJbgBGEq0KD6_Y87TIvR9u-RKPfOcwPvcuu7rviRcWU35GozuZXPP_ZzLL-z2i9a8O_p-XrArnabiMXFIjeFcMU0mcNm7yFrJGCoaVT0KnYh428eWzE605cA?width=5040&height=3360&cropmode=none) no-repeat 50% 50%;
+      background-size: cover;
+    display: block;
+    margin: auto;
+
+}

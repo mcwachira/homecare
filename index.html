@@ -12,17 +12,8 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css">
   <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900" rel="stylesheet">
-  <link rel="stylesheet" href="css/style.css">
-
-  <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media
-    queries -->
-  <!-- WARNING: Respond.js doesn't work if you view the page via
-    file:// -->
-  <!--[if lt IE 9]> <script
-    src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-    <script
-    src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.css">
+ <link rel="stylesheet" href="css/style.css">
 
 </head>
 
@@ -30,34 +21,56 @@
 
   <header>
 
-    <nav class="navbar fixed-top navbar-expand-lg fixed-top ">
-      <div class="container"> <a class="navbar-brand" href="index.html"> <img src="img/logo3.png" class="logo " alt="Msl Homecare"> </a>
+    <nav class="navbar fixed-top navbar-expand-lg fixed-top" id='cssmenu'>
+      <!--<div class="logo"> <a class="navbar-brand" href="index.html"> <img src="img/logo3.png" class="logo "-->
+                                                                         <!--alt="Msl Homecare"> </a> </div>-->
+<div class="logo"><a href="index.html">Responsive </a></div>
+            <div id="head-mobile"></div>
+            <div class="button"></div>
 
-        <button class="navbar-toggler navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarResponsive">
 
           <ul class="navbar-nav ml-auto">
-            <li class="nav-item"> <a class="nav-link active" href="#">Home</a> </li>
+            <li class="active"> <a href="#">Home</a> </li>
 
-            <li class="nav-item"> <a class="nav-link" href="about.html">About</a> </li>
+            <li> <a href="about.html">About</a> </li>
 
-            <li class="nav-item"> <a class="nav-link" href="services.html">Services</a> </li>
+            <li> <a  href="services.html">Services</a>
+            <ul>
+                <li> <a  href="elderly-care.html">Eldery Care</a> </li>
+                <li> <a href="new-born-care.html">NewBorn & Child Care</a>
+                <ul>
+                   <li> <a href="new-born.html">NewBorn Care</a>
+                   <li> <a  href="child-care.html">Child Care</a>
+                </ul>
+                </li>
+              <li> <a href="pallative-care.html">Pallative Care</a> </li>
+                <li> <a href="physiotheraphy.html">Physiotheraphy Care</a> </li>
+               <li> <a  href="private-nursing.html">Nursing Care</a> </li>
+            </ul>
+            </li>
 
-            <li class="nav-item"> <a class="nav-link" href="contacts.html">Contact</a> </li>
+            <li> <a  href="contacts.html">Contact</a> </li>
           </ul>
-        </div>
-      </div>
+
     </nav>
 
   </header>
 
+
+		<!--<div id="loader-wrapper">-->
+			<!--<div id="loader"></div>-->
+
+			<!--<div class="loader-section section-left"></div>-->
+            <!--<div class="loader-section section-right"></div>-->
+
+		<!--</div>-->
   <section class="first">
     <div class="container container-first">
-<div class="text-block">
+<div class="text-block animated slideInDown">
   <h2 class="heading-title">
   Experience the <br /><strong> Difference In Home Care  </strong></h2>
 </div>
+
     </div>
   </section>
 
@@ -68,11 +81,11 @@
           <h2 class="heading-primary"> Fully Personalised Care </h2>
           <div class="row">
 
-            <div class="col-md-4">
+            <div class="col-md-4  animated slideInUp">
               <div class="media block-icon-1 d-block text-left">
-                <div class="icon mb-5 "> <img class=" lozad mx-auto d-block"
+                <div class="icon mb-5 "> <img class=" lozad mx-auto d-block "
                         data-src="https://ez4qjw.am.files.1drv.com/y4mvKWwWgkyR5Erc6VcSCZLRt9_F7-qhYKp18XCSfQ6sTJ5bnnNMbohivn4mu3BVO_0FxEjM8YXICZ5Ut_NEO23xsOnmCB9qYoy0HmIVBoCc3r-ljJnlR4fHH9zv2HkZAVtDrJaUmhC7kzBvi2BRNgGvMtzoh2NGoPnHBiiwn4aEExmxSQunmM_LxTKBxvgQnVm0o2pp7SrGHVCBTrBP_l5OA?width=150&height=150&cropmode=none"> </div>
-                <div class="media-body">
+                <div class="media-body  animated slideInUp">
                   <h3 class="h5 mb-4 heading-sec"> Affordable </h3>
                   <P class="lead"> We provide a more affordable alternative to
                     residential care while offering better quality care.
@@ -82,11 +95,11 @@
 
             </div>
 
-            <div class="col-md-4">
+            <div class="col-md-4 animated slideInUp">
               <div class="media block-icon-1
                     d-block text-left">
                 <div class="icon mb-5"><img class="lozad mx-auto d-block" data-src="https://ez6pva.am.files.1drv.com/y4mV96w4I5Jf7_Nq2DH2DbfkhKzBnlB0FAqegbiunlbVLhVXnOwJFEDoOuZOK2r1KTqBTINnZE4ONZeXpnqHvP6CuXhr2uePEwEBhcCETP7CcfyTV_M8_kjdqYbpprdL_jqKH61W40CRCIbqkhzBV71S9-QS62F2LU4DG_DBBmLBj82FCUnbyxAryR-Z73rgZ4Ap2ibxlHu6Xo12kfQIz49Mw?width=150&height=150&cropmode=none" > </div>
-                <div class="media-body">
+                <div class="media-body  animated slideInUp">
                   <h3 class="h5 mb-4 heading-sec"> Service</h3>
                   <P class="lead">We take care of each person individually
                     providing the best care.</P>
@@ -95,12 +108,12 @@
 
             </div>
 
-            <div class="col-md-4">
+            <div class="col-md-4  animated slideInUp">
               <div class="media block-icon-1
                         d-block text-left">
                 <div class="icon mb-5"><img class="lozad mx-auto d-block" data-src="https://ez5gea.am.files.1drv.com/y4mzYw-DTJHFk4U2D0KQq3r-kx8eW60YAXNsi8CkdfkqeOqAz9SMQrvH1W-3xiaMjqx1qCbwKs-JSY1GeQo61bpHwQXQiaJ9ey7r3DOoDjF0P8vESVeuYsGpoliG1KH9ECzUA4en2CM1dXE_5DfkkIE8jCicjFQR6HVgcCpLU_I0fI1M4uwefE1IkhnsWoKEd6oZ9z2DLd08oEt9qEYmDGnWA?width=150&height=150&cropmode=none">
                 </div>
-                <div class="media-body">
+                <div class="media-body  animated slideInUp">
                   <h3 class="h5 mb-4 heading-sec">Quality</h3>
                   <P class="lead">We offer the best quality service to our
                     clients making them live happy always</P>
@@ -125,7 +138,7 @@
         <li> <img class="bubble-list__img" src="img/avatar3.png" alt="">
           <div class="bubble-list__text
                 left">
-            <p class="lead">“Cera really helped me with finding care
+            <p class="lead">“Msl Homecare really helped me with finding care
               immediately when I needed it. The carers were reliable and I
               cannot thank them enough for helping me in an urgent
               situation.”</p>
@@ -150,7 +163,7 @@
   <section class="our__service">
     <div class="container">
       <div class="row">
-        <ul class="service-list">
+        <ul class="service-list  animated slideInUp">
 
           <li class="service-list__elderly-care"> <a href="elderly-care.html">
               <div class="service-list__img">
@@ -262,7 +275,7 @@
 	        </div>
         </footer>
 
-  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+  <script  src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
   <script src="js/main.js"></script>

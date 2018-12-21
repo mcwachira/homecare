@@ -1,3 +1,4 @@
+
 (function($) {
   $.fn.menumaker = function(options) {
     var cssmenu = $(this),
@@ -79,7 +80,9 @@
   });
 })(jQuery);
 
-$(document).ready(function(){
+
+(function($)  {
+  $(document).ready(function(){
     $("#testimonial-slider").owlCarousel({
         items:1,
         itemsDesktop:[1000,1],
@@ -91,6 +94,17 @@ $(document).ready(function(){
         slideSpeed:1000,
         autoPlay:true
     });
+});
+
+})(jQuery);
+
+
+$(document).ready(function() {
+ 
+  setTimeout(function(){
+      $('body').addClass('loaded');
+  }, 9000);
+
 });
 
 

@@ -19,7 +19,13 @@
 </head>
 
 <body>
+    <div id="loader-wrapper">
+        <div id="loader"></div>
 
+        <div class="loader-section section-left"></div>
+    <div class="loader-section section-right"></div>
+    </div>
+  
   <header>
 
     <nav id='cssmenu' >
@@ -273,5 +279,18 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
 <script src="js/main.js"></script>
+<script>
+    $(document).ready(function() {
+    //Preloader
+    $(window).on("load", function() {
+    preloaderFadeOutTime = 500;
+    function hidePreloader() {
+    var preloader = $('.spinner-wrapper');
+    preloader.fadeOut(preloaderFadeOutTime);
+    }
+    hidePreloader();
+    });
+    });
+</script>
 </body>
 </html>

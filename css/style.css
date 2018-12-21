@@ -20,7 +20,6 @@ body {
   }
   .logo {
     position:relative;
-    z-index: 123;
     padding: 10px;
     font: 18px verdana;
     color: #6ddb07;
@@ -419,7 +418,7 @@ body {
 
 .text-block {
   position: absolute;
-  padding-top: 8rem;
+  padding-top: 10rem;
   padding-left: 1rem;
 
 }
@@ -436,6 +435,8 @@ body {
 
 .heading-title  {
   font-size: 38px;
+
+  position: absolute;
   font-weight: 700;
   background-image: linear-gradient(to right, #7ed56f, #28b485);
   -webkit-background-clip: text;

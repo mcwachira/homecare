@@ -406,10 +406,13 @@ body {
 
 
 .first{
-      width: 100%;
-      height: 130vh;
-      background: url(https://fxaasg.am.files.1drv.com/y4msAferrGC5Ru3w4OcgSjII3ec0PGkayAGSKhBuSYwzHqvqIcgKfQchKkQRDUKNDBG0mjyBNEE7QuazEQlGk3DzAbKwFNWDZQV_RjNqG1RacDKLJDitEgfZlaIeEc01-EdTDllkztjI9apdeTx0YaPpNOL_K5-1DSdkP1SmuMdi5rA_kKuzvBJSW9IMqd4Gyro3IlqPvwZzMBsF4gNeN7pvQ?width=4104&height=2736&cropmode=none) no-repeat 50% 50%;
+      max-width: 100%;
+      height:130vh;
+      background: url(../img/care.jpg);
       background-size: cover;
+     background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 /* .container-first  {

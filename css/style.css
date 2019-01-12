@@ -408,7 +408,7 @@ body {
 .first{
       max-width: 100%;
       height:130vh;
-      background: url(img/care.jpg);
+      background: url(https://ez5zmq.am.files.1drv.com/y4mdtW0rfnw-uuMXGBsem2U5Ex-WjQLgJOPK0NTGMYXni4oq9yUvkN5ogZBEFFrnIv5kWDYMrT_n_27SODZBLbZ_EDj68n8-hc5HW-yHdR1i33y4J4bPhVrlY4ByjBYs0_JV4P7IXhidQYtqDEcoIW9M6RJ5Gj3VLwbkj9BQ617RvZ_DB3EsUSEymDAUSBrpLENV7uo-Hpddd-hzS7CyBxK3Q?width=6000&height=4004&cropmode=none);
       background-size: cover;
      background-position: center;
     background-repeat: no-repeat;
@@ -441,13 +441,14 @@ body {
 
   position: absolute;
   font-weight: 700;
-  background-image: linear-gradient(to right, #7ed56f, #28b485);
+  background-image: linear-gradient(to right, #7dd12d, #40ffb7);
   -webkit-background-clip: text;
   -moz-background-clip: text;
      background-clip: text;
   color: transparent;
   letter-spacing: 4px;
   transition: all .2s;
+
 }
 
 @media (max-width: 768px)   {
